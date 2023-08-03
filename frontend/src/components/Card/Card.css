@@ -1,0 +1,166 @@
+ /* .Cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.parentContainer {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.parentContainer .chartContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: none;
+}
+
+.parentContainer .chartContainer.active {
+  display: block;
+}
+
+.parentContainer h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.parentContainer p {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.parentContainer .CircularProgressbar-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.parentContainer .detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.parentContainer .detail svg {
+  width: 24px;
+  height: 24px;
+  fill: #888;
+  margin-right: 10px;
+}
+
+.parentContainer .detail span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #888;
+}
+
+.parentContainer:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.parentContainer:hover .chartContainer {
+  display: block;
+}
+
+.parentContainer:hover .chartContainer.active {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+  */
+
+
+
+  .parentContainer {
+  display: block;
+  }
+  
+
+.CompactCard {
+  opacity: 1;
+  display: flex;
+  flex: 1;
+  height: 7rem !important;
+  border-radius: 0.7rem;
+  color: white;
+  padding: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.CompactCard:hover {
+  box-shadow: none !important;
+}
+.parentContainer:hover .chartContainer.active {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+
+.radialBar {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.CircularProgressbar {
+  width: 4rem !important;
+  overflow: visible;
+}
+.CircularProgressbar-path {
+  stroke: white !important;
+  stroke-width: 12px !important;
+  filter: drop-shadow(2px 4px 6px white);
+}
+.CircularProgressbar-trail {
+  display: none;
+}
+.CircularProgressbar-text {
+  fill: white !important;
+}
+
+.radialBar > span {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.detail > span:nth-child(2) {
+  font-size: 22px;
+  font-weight: bold;
+}
+.detail > span:nth-child(3) {
+  font-size: 12px;
+}
+

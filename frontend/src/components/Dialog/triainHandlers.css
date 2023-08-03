@@ -1,0 +1,141 @@
+.code-input {
+    width: 100%;
+    height: 450px;
+    font-family: "Fira Code", monospace;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    resize: vertical;
+    transition: background-color 0.3s ease;
+  }
+
+  .code-input:focus {
+    outline: none;
+    background-color: #2e2e2e;
+  }
+  .cancel-button {
+    background-color: #e0e0e0;
+    color: #333333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #cccccc;
+  }
+  
+  .submit-button {
+    background-color: #2196f3;
+    color: #ffffff;
+    border: none;
+    /* padding: 8px 16px; */
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #1976d2;
+  }
+  .dialog-actions {
+    display: flex;
+    justify-content: center;
+  }
+    
+/*
+  Loding page
+*/  
+.custom-dialog-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.dialog-inner-content {
+  /* Additional styling for the inner content of the dialog */
+  background-color: #fecb71;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dialog-inner-content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dialog-inner-content .MuiCircularProgress-root {
+  margin-top: 20px;
+}
+
+
+/* 
+  /* .cancel-button {
+    margin-right: 10px;
+    background-color: #ff5555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .cancel-button:hover {
+    background-color: #ff3333; 
+  }
+  
+  .submit-button {
+    margin-left: 10px;
+    background-color:#bc6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  */
+  /*
+  .submit-button :hover {
+    background-color: #3399ff;
+    cursor: pointer;
+  } 
+
+  .disabled-button:hover {
+    background-color: #696262;
+    cursor: not-allowed;
+  }
+  .disabled-button  {
+    background-color: #999999;
+    cursor: not-allowed;
+  }
+  .actions-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+    
+/* .dialog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+} */
+
+
+
+  
