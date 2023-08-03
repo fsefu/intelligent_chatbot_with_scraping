@@ -2,6 +2,8 @@
 Overview
 This repository contains the codebase for an Intelligent Chatbot With Scraping, designed to interact with users and external entities to achieve specific goals. The chatbot analyzes user queries, retrieves relevant information, and generates appropriate responses. It also allows users to provide feedback on the accuracy and helpfulness of responses, which can be used for further analysis and improvement. Additionally, the chatbot system enables the administrator to manage unanswered queries, update the dataset, train the chatbot model, and maintain the security of their account.
 
+For more you can check out [here](https://fsefuwan.netlify.app/)
+
 **Technologies Used**
 
 Front-end: React
