@@ -1,1 +1,1 @@
-/media/safety/OS/dev3/chatbot/backendFlask/data/intentsv57.json
+/media/safety/OS/dev3/chatbot/backendFlask/data/intentsv58.json
