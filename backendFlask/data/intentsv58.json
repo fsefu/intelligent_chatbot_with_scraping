@@ -1,0 +1,190 @@
+{
+    "intents": [
+         {
+              "tag": "greeting",
+              "patterns": [
+                   "Hi",
+                   "hi",
+                   "Hey",
+                   "hey yo",
+                   "how you all doing",
+                   "how you doing",
+                   "how is everything",
+                   "what is popping",
+                   "what's up",
+                   "sup",
+                   "hey there",
+                   "hola",
+                   "How are you",
+                   "Is anyone there?",
+                   "Hello",
+                   "Good day"
+              ],
+              "responses": [
+                   "Hey :-)",
+                   "Hello, thanks for visiting",
+                   "Hi there, what can I do for you?",
+                   "Hi there, how can I help?",
+                   "Hi there,what can I help you?",
+                   "Hello Welcome, How can I be of your service?"
+              ]
+         },
+         {
+              "tag": "president",
+              "patterns": [
+                   "who is president of jimma university",
+                   "president of jimma university",
+                   "JU president"
+              ],
+              "responses": [
+                   "Dr.Jamal Abba Fita is the current president of Jimma University",
+                   "Dr.Jamal Abba Fita Jimma University president.",
+                   "JU president is Dr. Jamal Abba Fita."
+              ]
+         },
+         {
+              "tag": "goodbye",
+              "patterns": [
+                   "Bye",
+                   "See you later",
+                   "Goodbye"
+              ],
+              "responses": [
+                   "See you later, thanks for visiting",
+                   "Have a nice day",
+                   "Bye! Come back again soon."
+              ]
+         },
+         {
+              "tag": "thanks",
+              "patterns": [
+                   "Thanks",
+                   "Thank you",
+                   "That's helpful",
+                   "that was really helpful",
+                   "Thank's a lot!"
+              ],
+              "responses": [
+                   "Happy to help!",
+                   "Any time!",
+                   "My pleasure",
+                   "Glad to help! "
+              ]
+         },
+         {
+              "tag":"random questions",
+              "patterns":["What are your plans for the weekend?",
+              "Have you seen any good movies or TV shows lately?",
+              "Do you have any pets?",
+              "can you guess who is behind the sceene",
+              "What kind of music do you like to listen to?",
+              "What's your favorite hobby?",
+              "What's the weather like where you are?",
+              "Have you read any good books recently?",
+              "What's your favorite type of cuisine?",
+              "Do you have any siblings?",
+              "what is your favorite food",
+              "how can we handle",
+              "who is the president of Ethiopia",
+              "who is the minister of health",
+              "Have you ever been to a concert or music festival?",
+              "What is the most popular food in your country?","Have you ever traveled to a foreign country?"," If so, where did you go?",
+              "Do you prefer books or movies, and why?"," What's the best advice you've ever received?","Do you play any musical instruments?","If you could live in any era of history, which one would you choose and why?","Have you ever done anything adventurous, like bungee jumping or skydiving?","What's your favorite way to spend a lazy Sunday afternoon?","If you could have dinner with any famous person, living or dead, who would it be?","What's the most beautiful place you've ever visited?" 
+         ],
+         "responses":["Sorry,I can only help you with questions related to jimma University"]
+         },
+         {
+            "tag":"programs_of_health_institute",
+            "patterns":["What health programs are available?",
+            "Are there any nursing courses?",
+            "what programs jimma university give that is related to health",
+            "What can you tell me about the medical school?",
+            "Does the university offer public health or community health courses?",
+            "Is there any program for physical therapy?",
+            "What kind of research opportunities are available in health-related programs?",
+            "What are the admission requirements for health programs?",
+            "Do students get practical experience in health programs?",
+            "Are there specialized programs in certain health fields like occupational therapy or radiography?",
+            "What kind of jobs can graduates get from health programs?"],
+            "responses":[
+                 "Undergraduate Programs are ->   MD in Medicine->   MD in Dentistry->   BSc in Anesthesia->   BSc in Public Health->   BPharm. In Pharmacy->   BSc in Medical Laboratory->   BSc in Nursing->   BSc in Midwifery->   BSc in Environmental Health and Graduate and Postgraduate Programs are->   MPH in Epidemiology->   MPH in General Public Health->   MPH in Health Promotion and Behaviors->   MPH in Health service Management->   MPH in Reproductive Health->   MSc in Adult Health Nursing->   MSc in Biochemistry->   MSc in Clinical Laboratory Science (specialty in Clinical Chemistry)->   MSc in Clinical Laboratory Science (specialty in Hematology & Immunohematology)->   MSc in Clinical Laboratory Science (specialty in Laboratory Management)->   MSc in Clinical Pharmacy->   MSc in Environmental health Science->   MSc in Environmental Science& Technology->   MSc in Health Monitoring  & Evaluation->   MSc in Human Anatomy->   MSc in Human Nutrition->   MSc in Integrated Clinical and community Mental Health->   MSc in Maternity Health Nursing->   MSc in Medical Microbiology->   MSc in Medical Parasitology->   MSc in Medical Physiology->   MSc in Pharmaceutical Quality Assurance & Regulatory affairs->   MSc in Pharmaceutical Supply Chain Management->   PhD in Applied Ecology->   PhD in Environmental Health->   PhD in Health Communication & Health Behavior->   PhD in Nutrition->   PhD in Reproductive Health->   PhD in Tropical and Infectious disease->   PhD in Pharmaceuticals Science->   Specialty Certificate in endodontics and operative dentistry->   Specialty Certificate in Oral & Maxillofacial Surgery->   Specialty Certificate in Orthodontics->   Sub Specialty Certificate in Urogynecology and Reconstructive Pelvic Surgery->   Sub-specialty Certificate  in Pediatrics Surgery->   Sub-specialty Certificate in Pediatric Oncology "
+
+            ]
+        },
+       {
+         "tag":"programs at JIT",
+         "patterns":["what programs are given at jit","programs at jit","JIT programs"],
+         "responses":["Undergraduate Programs are :     ->   BSc in Architecture and Urban Planning   ->     BSc in Biomedical Engineering   ->   BSc in Chemical Engineering   ->   BSc in Civil Engineering   ->   BSc in Computer Science   ->   BSc in Electrical and Computer Engineering   ->   BSc in Hydraulics and Water Resources Engineering   ->   BSC in Information Science   ->   BSc in Information Technology   ->   BSc in Material Science Engineering   ->   BSc in Mechanical Engineering   ->   BSc in Software Engineering   ->   BSc in Water Supply & Engineering  and Graduate and Postgraduate Programs are :   ->   MSc in Bio-Instrumentation   ->   MSc in Bio-Medical Imaging   ->   MSc in Ceramics Engineering->   MSc in Communication Engineering->   MSc in Computer Networking->   MSc in Construction Engineering and Management->   MSc in Control and Instrumentation Engineering->   MSc in Electrical computer Engineering->   MSc in Electrical Power Engineering->   MSc in Environmental Engineering->   MSc in Geotechnical Engineering->   MSc in Highway Engineering->   MSc in Hydraulic Engineering->   MSc in Information Technology->   MSc in Information Science (Electronics & Digital Resource Management)->   MSc in Information Science (Information & Knowledge Management)->   MSc in Manufacturing Engineering->   MSc in Material Science Engineering->   MSc in Mechanical Systems Design->   MSc in Metallurgical Engineering->   MSc in Polymer Engineering->   MSc in Process Engineering->   MSc in Structural Engineering->   MSc in Sustainable Engineering->   MSc in Thermal Systems Engineering->   PhD in Metallurgical Engineering->   PhD in Ceramic Engineering->   PhD in Civil Engineering->   PhD in Environmental Engineering->   PhD in Manufacturing Engineering->   PhD in Material Science Engineering->   PhD in Mechanical Design->   PhD in Polymer Engineering->   PhD in Sustainable Engineering->   PhD in Thermal Engineering (EECBP)->   PhD in Water Resource Engineering->   PhD in Power Engineering->   PhD in Communication Engineering->   PhD in Information Science "
+       ]
+       },
+
+       {
+            "tag":"undergraduate programs jit",
+            "patterns":["What undergraduate engineering programs are available at Jimma Institute of Technology?","undergraduate programs at jit","jimma institute of technology undergraduate programs","can you give the list of undergraduate programs at jimma institute of technology","list undergraduate programs at jit"],
+            "responses":["Undergraduate Programs are :    ->   BSc in Architecture and Urban Planning   ->   BSc in Biomedical Engineering   ->   BSc in Chemical Engineering   ->   BSc in Civil Engineering   ->   BSc in Computer Science    ->   BSc in Electrical and Computer Engineering   ->   BSc in Hydraulics and Water Resources Engineering   ->   BSC in Information Science   ->   BSc in Information Technology   ->   BSc in Material Science Engineering   ->   BSc in Mechanical Engineering   ->   BSc in Software Engineering   ->   BSc in Water Supply & Engineering  "]
+       },
+       {
+            "tag": "academy",
+            "patterns": [
+                 "about ju academy",
+                 "ju academy",
+                 "juac",
+                 "Academy",
+                 "i want to tell me about juac wha they planing about"
+            ],
+            "responses": [
+                 "  Academic ExcellenceJimma University aspirations and ambitions can be seen in development activity throughout the campus and in every department and discipline.",
+                 "Through the dedicated efforts of its staff and faculty, long term strategic planning, investment and with a dedication to the development of its student body, Jimma University is positioning itself to achieve greater academic excellence.Jimma Universitys medical program is among the largest and best in the nation.",
+                 "With the physical expansion of the newly built Jimma University, Teaching Hospital and the creation of the Jimma Institute of Health, our leadership in this critical area is sure to grow in national terms.",
+                 "Jimma University also produces some of the best engineers and scientists in Ethiopia, which in large part is due to the founding of the Jimma Institute of Technology and the continued dedication and hard work of its dynamic leadership.",
+                 "Jimma University also places an emphasis on the rich culture of Ethiopia, and through the College of Social Sciences and Humanities, fields such as Oromo and Amharic language as well as culture and folklore studies are increasingly becoming leading programs in the nation.",
+                 "Music, theatre arts, and sports are also new areas the university has created with the intention of making them nationally recognized for their ability to elucidate Ethiopias rich musical and theatrical tradition as well as athletic prowess.",
+                 "The College of Law and Governance also is a national leader in pro bono legal aid service as well as a major contributor of scholarly publications in the nation.",
+                 "Internationally, our partnerships extend to mutual exchanges of faculty and students which allows for an increase in the exchange of ideas globally.Colleges of Jimma UniversityJimma University is organized in to the following Colleges &amp; Institutes  Jimma University    External Relations and Communications         E-mail : ero@ju.edu.et    Website: www.ju.edu.et    Tel : +251-(0)47-111-2202    President Building"
+            ]
+       },
+       {
+            "tag": "JU vision",
+            "patterns": [
+                 "what is the vision of Jimma University",
+                 "what is the vision of JU",
+                 "JU vision",
+                 "Jimma University vision"
+            ],
+            "responses": [
+                 "Aspires to be one of the Leading Community Based Research Universities in Africa and Renowned in the World by 2030."
+            ]
+       },
+       {
+        "tag": "News",
+        "patterns": [
+            "What is news about jimma university",
+            "News",
+            "Latest News",
+            "Hot news",
+            "Jimma University News",
+            "News at ju",
+            "JU news",
+            "News at jimma University"
+        ],
+        "responses": [
+            "news123"
+        ]
+    },
+    {
+        "tag": "Event",
+        "patterns": [
+            "What is Event about jimma university",
+            "Event",
+            "Latest Event",
+            "Hot Event",
+            "Jimma University Event",
+            "latets events at jimma university"
+        ],
+        "responses": [
+            "event123"
+        ]
+    }
+
+]
+}
