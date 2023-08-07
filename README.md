@@ -19,6 +19,27 @@ To deploy and run the Intelligent Chatbot, follow these steps:
    - Navigate to the 'backendFlask' directory and install the required Python packages using `pip install -r requirements.txt`.
    - Run the Flask server using python app.py.
 
+### Importing safedb.sql into Your Database
+
+To set up the database for the SafeDB project, follow these steps:
+
+a. **Access Your Database:**
+
+   Open your preferred database management tool (e.g., MySQL Workbench).
+
+b. **Import the SQL File:**
+
+   a. In MySQL Workbench, go to the "Server" menu and select "Data Import."
+   b. Choose the "Import from Self-Contained File" option.
+   c. Select the downloaded `safedb.sql` file and follow the import prompts.
+
+c. **Verify Import:**
+
+   Check your database to ensure that the `safedb` database and its tables have been created successfully.
+
+That's it! You've successfully imported the `safedb.sql` file into your database.
+
+
 3.  Set up the node back-end server:
    - Navigate to the 'backendNode' directory and install the required Node packages using `npm install`.
    - Run the Node server using `nodemon index.js`.
