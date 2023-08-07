@@ -13,7 +13,7 @@ Database: MySQL
 **Getting Started**
 
 To deploy and run the Intelligent Chatbot, follow these steps:
-1. Clone the repository to your local machine by using go to project directories`git clone https://github.com/fsefuwan/intelligent_chatbot_with_scraping && cd intelligent_chatbot_with_scraping`
+1. Clone the repository to your local machine by using go to project directories`git clone https://github.com/fsefu/intelligent_chatbot_with_scraping && cd intelligent_chatbot_with_scraping`
    
 2. Set up the flask back-end server:
    - Navigate to the 'backendFlask' directory and install the required Python packages using `pip install -r requirements.txt`.
