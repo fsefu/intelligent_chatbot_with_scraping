@@ -10,6 +10,23 @@ Front-end: React
 Back-end: Flask (Python) and Node.js (JavaScript)
 Database: MySQL
 
+## Features
+
+- **Real-Time Data Retrieval:** Access up-to-date information from the web. Our chatbot seamlessly scrapes data from websites to keep you informed.
+
+- **Interactive Conversations:** Engage in meaningful conversations. Powered by NLP, our chatbot understands context and delivers relevant responses.
+
+- **User Feedback Collection:** Share your feedback to help us improve. Your insights drive the chatbot's continuous development.
+
+- **Unanswered Query Reporting:** The chatbot intelligently reports unanswered queries to administrators, enabling constant improvement.
+
+- **Admin Dashboard:** Administrators have full control. Monitor interactions, review feedback, and manage the chatbot's performance.
+
+- **Broken Link/Issue Reporting:** Report issues for prompt resolution, ensuring a seamless user experience.
+
+- **Easy Data Addition and Training:** Admins can expand the chatbot's knowledge base via a user-friendly GUI, maintaining accurate responses.
+
+
 **Getting Started**
 
 To deploy and run the Intelligent Chatbot, follow these steps:
