@@ -264,8 +264,8 @@ def merge_route():
     try:
         json_files = []
         sorted_json_files = []
-
-        folder_path = "/media/safety/OS/dev3/chatbot/backendFlask/data"
+        
+        folder_path = os.getcwd()+"/data"
         for file in os.listdir(folder_path):
             if file.endswith(".json"):
                 json_files.append(file)
@@ -290,7 +290,7 @@ def merge_route():
         data = data["data"]
         data = json.loads(data)
 
-        folder_path = '/media/safety/OS/dev3/chatbot/backendFlask/data/'
+        folder_path = os.getcwd()+'/data/'
 
         with open(folder_path + lastVersion, 'r') as file:
             existing_data = json.load(file)
